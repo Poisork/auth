@@ -1,0 +1,34 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "vercel deploy --prod",
+    "local": "vercel dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poisork/auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "^14"
+  },
+  "homepage": "https://github.com/Poisork/words#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "inversify": "^6.0.1",
+    "inversify-express-utils": "^6.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "node-fetch": "^2.6.7",
+    "reflect-metadata": "^0.1.13",
+    "tslib": "^2.4.0"
+  }
+}
